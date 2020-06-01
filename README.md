@@ -1,6 +1,19 @@
 # qrcodesample
 
-A new Flutter application.
+this sample is a copy and updated version of [flutter qr code scanner generator sharing](https://github.com/alfianlosari/flutter_qr_code_scanner_generator_sharing)
+can follow this tutroial https://medium.com/flutter-community/building-flutter-qr-code-generator-scanner-and-sharing-app-703e73b228d3
+
+used plugins:
+- path_provider: ^1.6.9
+- barcode_scan: ^3.0.1
+- qr_flutter: ^3.1.0
+- esys_flutter_share: ^1.0.2
+  sharing qr code image after generated instead of platform channel
+  
+and offers:
+1- Scan QR Code with camera on iOS and Android
+2- Generate QR Code with text data.
+3- Share Generated QR Code image file on iOS and Android
 
 ## Getting Started
 
