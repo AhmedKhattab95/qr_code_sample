@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>${PRODUCT_NAME} always location use</string>
+    <key>NSCameraUsageDescription</key>
+    <string>allow camera to scan Qr code</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>allow access images</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>save image to images</string>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
